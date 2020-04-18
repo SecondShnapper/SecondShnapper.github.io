@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Login Details</h1>
+<div>
+    <label>First Name</label>
+    <input type="text" id="poopoo">
+</div>
+
+<div>
+    <label>Last Name</label>
+    <input type="text" id=peepee>
+</div>
+<div>
+    <label>Password</label>
+    <input type="password" id="stinkybuttface">
+</div>
+
+<div>
+    <button onclick="show()">show full name.</button>
+</div>
+
+<script>
+    function show(){
+        var stonks = document.getElementById("poopoo").value;  
+        var notstonks = document.getElementById("peepee").value;
+        alert(stonks+" "+notstonks);
+        }
+    
+</script>
+<div>
+<button onclick="reveal()">see password</button>
+</div>
+<script>
+    function reveal(){
+        var helth = document.getElementById("stinkybuttface").value;  
+        var stronk = "your password is";
+        alert(stronk+" "+helth);
+        }
+    
+</script>
+<p></p>
+
+<img src="">
+<h2></h2>
+
+
+<button type="button"
+onclick="document.getElementById('the moospaper').innerHTML = 'yes definitely yes error hacked you just got hacked lmao 100100101001101001110010110'">
+Click me to display if you got hacked.</button>
+
+<p id="the moospaper"></p>
+
+</body>
+</html>
